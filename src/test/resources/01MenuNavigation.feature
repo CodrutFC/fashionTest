@@ -1,4 +1,4 @@
-Feature: Contact Us Page
+Feature: Menu Navigation
   As an end user
   I want to be able to browse through all the menus
   So that I can see all QAWorks exciting services!!

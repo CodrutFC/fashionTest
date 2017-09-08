@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/pageContact.iml" filepath="$PROJECT_DIR$/pageContact.iml" />
+      <module fileurl="file://$PROJECT_DIR$/googleTest.iml" filepath="$PROJECT_DIR$/googleTest.iml" />
     </modules>
   </component>
 </project>

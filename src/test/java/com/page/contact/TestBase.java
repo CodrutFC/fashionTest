@@ -4,6 +4,8 @@ import io.github.bonigarcia.wdm.ChromeDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * Test base that contains global test vars
  * driver initialisation and the set up and tear
@@ -13,7 +15,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TestBase {
 
-    public final static String siteUrl = "http://qaworks.com";
+    public final static String siteUrl = "http://google.co.uk";
     public static WebDriver driver;
 
     // Setup Chrome Driver for the test

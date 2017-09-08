@@ -1,4 +1,4 @@
-# pageContact
+# Selenium Test
 Test - Cucumber and Selenium with Java
 
 All dependencies can be found in the pom.xml file :

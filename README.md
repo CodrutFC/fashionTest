@@ -15,17 +15,7 @@ Type of project Maven Project.
 To build simply import the project and use the pom.xml to import the dependencies.
 
 Highlights 
-- The custom implementation of PageObjects ( to have multiple reusable items )
-- Custom methods that loop through elements rather than having to go through one after another
-- Custom TestHelper class the encapsulates all methods which return a value to be asserted on ( for ease of debugging when needed )
-
-Improvements
-- Must find a proper formatting for the code
-- Perform more checks with assertions
-
-Bugs encountered can be seen in the comments ( Assertions failing due to bugs have been moved towards the end of the tests so that when tested the majority of tests pass )
-- Incorrect url redirect from Prices menu item
-- Validation message is not refreshing as exepected when other information is entered for messaege/name
-- Possible security issue caused by Stack Trace
-
-* For more information check the comments left in the code
+- The value "iPhone UK" is searched as string due to the google search for "iPhone" not showing any Amazon.co.uk results ( may be caused by my current location )
+- Check for the page to load based on the results found
+- Clicked on the first Amazon result ( used the Amazon page options to locate the product with the most gb )
+- Performed tests based on the device located on the previous step
